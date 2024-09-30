@@ -40,12 +40,12 @@ bachelorarbeit_datenanalyse
 
 Das Jupyter Notebook Experiment_Produktbeschreibungen.ipynb ist wie folgt strukturiert:
 
-** 1. Import Statements:** Herunterladen und Import der benötigten Python-Pakete.
-** 2. Generierung der KI-Produktbeschreibungen:** Generierung von 250 Produktbeschreibungen für jedes der vier Produkte mithilfe der OpenAI API.
-** 3. Menschlich generierte Produktbeschreibungen (ohne KI-Vorschlag):** Einlesen der Umfrageergebnisse ohne KI-Vorschlag.
-** 4. Menschlich generierte Produktbeschreibungen (mit KI-Vorschlag):** Einlesen der Umfrageergebnisse mit KI-Vorschlag.
-** 5. Statistiken der Produktbeschreibungen:** Vergleich grundlegender Textmerkmale wie Wortanzahl, Satzanzahl etc.
-** 6. Generierung von Embeddings:** Erstellung von Embeddings für alle Produktbeschreibungen über die OpenAI API.
-** 7. Analyse der Produktbeschreibungen:** Berechnung der Kosinus-Ähnlichkeit zwischen Produktbeschreibungen (Textähnlichkeit) und Berechnung der Type-Token Ratio (Wortdiversität) und K-Means-Clustering mit Visualisierung durch PCA (Clustering).
-** 8. Vergleichende Analyse:** Vergleich der Kosinus-Ähnlichkeit, Type-Token Ratio und Cluster zwischen den verschiedenen Beschreibungsarten.
+1. **Import Statements:** Herunterladen und Import der benötigten Python-Pakete.
+2. **Generierung der KI-Produktbeschreibungen:** Generierung von 250 Produktbeschreibungen für jedes der vier Produkte mithilfe der OpenAI API.
+3. **Menschlich generierte Produktbeschreibungen (ohne KI-Vorschlag):** Einlesen der Umfrageergebnisse ohne KI-Vorschlag.
+4. **Menschlich generierte Produktbeschreibungen (mit KI-Vorschlag):** Einlesen der Umfrageergebnisse mit KI-Vorschlag.
+5. **Statistiken der Produktbeschreibungen:** Vergleich grundlegender Textmerkmale wie Wortanzahl, Satzanzahl etc.
+6. **Generierung von Embeddings:** Erstellung von Embeddings für alle Produktbeschreibungen über die OpenAI API.
+7. **Analyse der Produktbeschreibungen:** Berechnung der Kosinus-Ähnlichkeit zwischen Produktbeschreibungen (Textähnlichkeit) und Berechnung der Type-Token Ratio (Wortdiversität) und K-Means-Clustering mit Visualisierung durch PCA (Clustering).
+8. **Vergleichende Analyse:** Vergleich der Kosinus-Ähnlichkeit, Type-Token Ratio und Cluster zwischen den verschiedenen Beschreibungsarten.
 
