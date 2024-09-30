@@ -26,7 +26,7 @@ bachelorarbeit_datenanalyse
 │   ├── prod_2.csv           # Produktbeschreibungen für Ecksofa (250 Beschreibungen)
 │   ├── prod_3.csv           # Produktbeschreibungen für Parfüm (250 Beschreibungen)
 │   └── prod_4.csv           # Produktbeschreibungen für Trainingsjacke (250 Beschreibungen)
-├── notebooks/            # Jupyter Notebooks für die Analyse
+├── notebook/            # Jupyter Notebooks für die Analyse
 │   └── Experiment_Produktbeschreibungen.ipynb
 └── README.md                # Dieses Dokument
 ```
