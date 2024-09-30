@@ -40,7 +40,7 @@ bachelorarbeit_datenanalyse
 
 Das Jupyter Notebook Experiment_Produktbeschreibungen.ipynb ist wie folgt strukturiert:
 
-1. **Import Statements:** Herunterladen und Import der benötigten Python-Pakete.
+1. **Import-Statements:** Herunterladen und Import der benötigten Python-Pakete.
 2. **Generierung der KI-Produktbeschreibungen:** Generierung von 250 Produktbeschreibungen für jedes der vier Produkte mithilfe der OpenAI API.
 3. **Menschlich generierte Produktbeschreibungen (ohne KI-Vorschlag):** Einlesen der Umfrageergebnisse ohne KI-Vorschlag.
 4. **Menschlich generierte Produktbeschreibungen (mit KI-Vorschlag):** Einlesen der Umfrageergebnisse mit KI-Vorschlag.
