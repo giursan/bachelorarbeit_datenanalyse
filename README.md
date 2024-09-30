@@ -29,7 +29,7 @@ bachelorarbeit_datenanalyse
 ├── notebooks/            # Jupyter Notebooks für die Analyse
 │   └── Experiment_Produktbeschreibungen.ipynb
 └── README.md                # Dieses Dokument
-
+```
 ## Verwendete Daten
 
 * KI-generierte Produktbeschreibungen: Für jedes der vier Produkte wurden 250 Beschreibungen mithilfe der OpenAI API generiert.
