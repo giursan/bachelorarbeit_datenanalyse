@@ -2,14 +2,14 @@
 
 Willkommen zu meinem GitHub-Repository, welches die Datenanalyse für meine Bachelorarbeit **"Analyse der Einsatzfähigkeit von KI-erstellten Produktbeschreibungen im E-Commerce"** enthält. In diesem Repository werden verschiedene Analysemethoden eingesetzt, um KI-generierte und menschlich erstellte Produktbeschreibungen zu vergleichen und zu analysieren.
 
-## 🚀 Inhaltsverzeichnis
+## Inhaltsverzeichnis
 
 1. [Projektübersicht](#projektübersicht)
 2. [Repository-Struktur](#repository-struktur)
 3. [Verwendete Daten](#verwendete-daten)
 4. [Notebook-Gliederung](#notebook-gliederung)
 
-## 🧐 Projektübersicht
+## Projektübersicht
 
 In dieser Analyse werden Produktbeschreibungen für vier ausgewählte Produkte (Laufschuh, Ecksofa, Parfüm, Trainingsjacke) mithilfe von KI generiert. Anschließend werden diese mit menschlich erstellten Produktbeschreibungen, sowohl mit als auch ohne KI-Vorschlag, verglichen. Hauptziel ist es, die Einsatzfähigkeit von KI-generierten Produktbeschreibungen im E-Commerce zu untersuchen.
 
@@ -18,25 +18,25 @@ Die Hauptfragestellungen betreffen:
 - Wortdiversität (Type-Token Ratio)
 - Clustering der Produktbeschreibungen (mithilfe von k-Means und PCA)
 
-## 📂 Repository-Struktur
-
-📦 bachelorarbeit_datenanalyse
-├── 📁 data/                 # Ordner mit den generierten Produktbeschreibungen (CSV-Dateien)
+## Repository-Struktur
+```bash
+bachelorarbeit_datenanalyse
+├── data/                 # Ordner mit den generierten Produktbeschreibungen (CSV-Dateien)
 │   ├── prod_1.csv           # Produktbeschreibungen für Laufschuh (250 Beschreibungen)
 │   ├── prod_2.csv           # Produktbeschreibungen für Ecksofa (250 Beschreibungen)
 │   ├── prod_3.csv           # Produktbeschreibungen für Parfüm (250 Beschreibungen)
 │   └── prod_4.csv           # Produktbeschreibungen für Trainingsjacke (250 Beschreibungen)
-├── 📁 notebooks/            # Jupyter Notebooks für die Analyse
+├── notebooks/            # Jupyter Notebooks für die Analyse
 │   └── Experiment_Produktbeschreibungen.ipynb
 └── README.md                # Dieses Dokument
 
-## 📊 Verwendete Daten
+## Verwendete Daten
 
 * KI-generierte Produktbeschreibungen: Für jedes der vier Produkte wurden 250 Beschreibungen mithilfe der OpenAI API generiert.
 * Menschliche Produktbeschreibungen ohne KI-Vorschlag: Beschreibungen, die von Umfrageteilnehmern ohne Einfluss eines KI-Vorschlags erstellt wurden.
 * Menschliche Produktbeschreibungen mit KI-Vorschlag: Beschreibungen, die von Umfrageteilnehmern basierend auf einem KI-generierten Vorschlag erstellt wurden.
 
-## 📓 Notebook-Gliederung
+## Notebook-Gliederung
 
 Das Jupyter Notebook Experiment_Produktbeschreibungen.ipynb ist wie folgt strukturiert:
 
